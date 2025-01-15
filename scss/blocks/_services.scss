@@ -1,0 +1,137 @@
+.services-section {
+    margin-bottom: 160px;
+}
+.services__section-wrapper{
+    text-align: center;
+}
+.services__content-wrapper{
+    display: inline-block;
+    text-align: center;
+    width: 575px;
+    margin-bottom: 24px;
+}
+.services__title { 
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.88px;
+    margin-bottom: 10px;
+}
+.services__text {
+    margin-bottom: 40px;
+}
+.services__list-section {
+    @include Display();
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.services__btn--Compact {
+    width: 155px;
+    background-color:var(--g-green);
+    border-radius: 100px;
+    padding: 19px 40px;
+    border: none;
+    color: var(--w-white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+}
+.services__btn--Sports-cars {
+    width: 170px;
+    background-color: var(--w-white);
+    border-radius: 100px;
+    padding: 19px 40px;
+    border: 1.5px solid rgba(0, 0, 0,0.1);
+    color: var(--b-black) ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+}
+.services__btn--Compact-Vans {
+    width: 119px;
+    background-color: var(--w-white);
+    border-radius: 100px;
+    padding: 19px 40px;
+    border: 1.5px solid rgba(0, 0, 0,0.1);
+    color: var(--b-black) ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+}
+.services__list-types {
+    width: 387px;
+    height: 433px;
+    background-color: var(--b-background);
+    border-radius: 16px;
+}
+.services__item-types-title{
+    padding: 30px 24px 0 24px;
+}
+.services__item-types-text{
+    padding: 8px 24px 0 24px;
+}
+.features-list-top {
+    @include Display();
+    gap: 66px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+.features-item-seats {
+    @include Display();
+    width: 90px;
+    height: 20px;
+    gap: 12px;
+}
+.features-item-gearbox {
+    @include Display();
+    width: 118px;
+    height: 20px;
+    gap: 12px;
+}
+.features-list-bottom {
+    @include Display();
+    gap: 54px;
+    margin-left: 24px;
+}
+.features-item-limit {
+    @include Display();
+    width: 102px;
+    height: 20px;
+    gap: 10px;
+}
+.features-item-petrol {
+    @include Display();
+}
+.features-item-text-petrol {
+    @include Display();
+    width: 127px ;
+    height: 20px;
+    gap: 12px;
+}
+.services__list-wrapper-top{
+    @include Display();
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.services__list-wrapper-bottom{
+    @include Display();
+    gap: 20px;
+}
+.services__all-cars-btn{
+    width: 173px;
+    height: 58px;
+    border-radius: 100px;
+    padding: 18px 30px;
+    border: none;
+    background-color: var(--g-green);
+    color: var(--w-white);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin-left: 514px;
+    margin-top: 40px;
+}

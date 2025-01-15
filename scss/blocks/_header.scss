@@ -1,0 +1,108 @@
+.site-header {
+    @include Display();
+    justify-content: space-between;
+    border-bottom: 1.5px solid #E5E7EA;
+    padding: 18px;
+    margin-bottom: 20px;
+}
+.remove-header-wrapper{
+    @include Display();
+    justify-content: space-between;
+}
+.header-list{
+    @include Display(); 
+}
+.navbar__item:nth-child(1){
+    width: 130px;
+    height: 58px;
+    padding: 18px 16px;
+}
+.navbar__item{
+    @include Display();
+}
+
+.navbar__link{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    color: var(--b-black);
+
+}
+.about-item:hover{
+    z-index: 10;
+    width: 1300px;
+    height: 194px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    box-shadow: 0px 4px 10px 0px #00000026;
+}
+.help-item:hover{
+    z-index: 10;
+    width: 1300px;
+    height: 194px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    box-shadow: 0px 4px 10px 0px #00000026;
+}
+.navbar__item:nth-child(2)>.navbar__link{
+    margin-right: 27px;
+    width: 85px;
+}
+.navbar__item:nth-child(2){
+    width: 147px;
+    height: 58px;
+    padding: 18px 9px 18px 16px;
+}
+.navbar__item:nth-child(3){
+    width: 169px;
+    height: 58px;
+    padding: 18px 16px;
+}
+.navbar__item:nth-child(3)>.navbar__link{
+    margin-right: 6.5px;
+}
+.site-tel {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    color: var(--b-black);
+    width: 148px;
+
+}
+.dark-btn {
+    margin-left: 24px;
+    margin-right: 16px;
+    width: 58px;
+    height: 58px;
+    border-radius: 100px;
+    border: none;
+}
+.dark-btn-link{
+    border-radius: 100px;
+}
+.dark-btn:hover{
+    cursor: pointer;
+}
+.dark-btn-link-img{
+    border-radius: 200px;
+}
+.login-btn {
+    background-color: var(--g-green);
+    width: 142px;
+    height: 58px;
+    border-radius: 100px;
+    border: none;
+    padding: 18px 30px;
+}
+.login-btn:hover{
+    cursor: pointer;
+}
+.login-btn-link{
+    @include Display();
+    gap: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+
+}
