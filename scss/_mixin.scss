@@ -1,8 +1,28 @@
-@mixin Display(){
-    display: flex;
-    align-items: center;
+@mixin Display($ds,$ai,$jc){
+    display: $ds;
+    align-items: $ai;
+    justify-content: $jc;
 }
-
-@mixin TextStyle(){
-    
+@mixin TextStyle($FS,$FW,$LH,$CLR){
+    font-size: $FS;
+    font-weight: $FW;
+    line-height: $LH;
+    color: $CLR;
+}
+@mixin Backgroundstyle($IMG,$REP,$SZ,$CL){
+    background-image: $IMG;
+    background-repeat: $REP;
+    background-size: $SZ;
+    background-color: $CL;
+}
+@mixin Position($PO,$TP,$BT,$RT,$LF){
+    position: $PO;
+    top: $TP;
+    bottom: $BT;
+    right: $RT;
+    left: $LF;
+}
+@mixin Size($Wt,$He){
+    width: $Wt;
+    height: $He;
 }

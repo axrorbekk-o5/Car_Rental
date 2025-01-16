@@ -1,0 +1,33 @@
+.information-section {
+    padding: 160px 0 160px ;
+}
+.container {
+}
+.information {
+}
+.information__cars-wrapper {
+    margin-bottom: 160px;
+}
+.cars-title {
+    margin-bottom: 34px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+    color: black;
+}
+.cars-list {
+    @include Display($ds:flex,$ai:center,$jc:space-between);
+    @include Size($Wt:1170px,$He:none);
+    gap: 66px;
+}
+.cars-item {
+}
+.inf {
+    width: 684px;
+    margin:  0 auto;
+}
+.information__title {
+}
+.information__text{
+    text-align: center;
+}
