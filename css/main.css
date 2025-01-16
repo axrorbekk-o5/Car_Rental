@@ -558,11 +558,93 @@ body {
   gap: 66px;
 }
 
-.inf {
+.information-content {
   width: 684px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .information__text {
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.information-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.information-item {
+  padding: 40px 40px 40px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 590px;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+}
+
+.item-book-title {
+  width: 211px;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.01px;
+  margin-bottom: 10px;
+}
+
+.item-book-text {
+  width: 354px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.item-car-title {
+  width: 260px;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.01px;
+  margin-bottom: 10px;
+}
+
+.item-car-text {
+  width: 354px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.item-service-title {
+  width: 278px;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.01px;
+  margin-bottom: 10px;
+}
+
+.item-service-text {
+  width: 354px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.item-fees-title {
+  width: 288px;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.01px;
+  margin-bottom: 10px;
+}
+
+.item-fees-text {
+  width: 354px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }/*# sourceMappingURL=main.css.map */
